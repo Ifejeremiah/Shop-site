@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/02e6d9d8ee.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="simple-lightbox.min.css">
+    <link rel="stylesheet" href="dist/simple-lightbox.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Esther's Room of Choice - Wears and deliveries at better affordable prices.</title>
 </head>
@@ -14,7 +14,7 @@
     <main>
         <!-- Logo -->
         <div class="logo">
-            <h2>Esther's Room of Choice <sup>v1.1.4</sup></h2>
+            <h2>Esther's Room of Choice <sup>v1.2.0</sup></h2>
         </div>
 
         <!-- Showcase -->
@@ -24,19 +24,19 @@
                 <div class="card-inner grid">
                     <div class="card flex">
                         <img src="https://i.ibb.co/VYtPZSd/n-shirt.jpg" alt="pic">
-                        <h2>Shirt</h2>
+                        <h2>Long Tee Shirts</h2>
                     </div>
                     <div class="card flex">
                         <img src="https://i.ibb.co/LrmjDwR/shoe.jpg" alt="pic">
-                        <h2>Shirt</h2>
+                        <h2>Men's Trainers & Sneakers</h2>
                     </div>
                     <div class="card flex">
                         <img src="https://i.ibb.co/RgxB6K9/Bands.jpg" alt="pic">
-                        <h2>Shirt</h2>
+                        <h2>Designer Jewelry</h2>
                     </div>
                     <div class="card flex">
                         <img src="https://i.ibb.co/b6MvTQL/shorts.jpg" alt="pic">
-                        <h2>Shirt</h2>
+                        <h2>Chinos for Men & Men's Trousers</h2>
                     </div>
                 </div>
             </div>
@@ -45,12 +45,43 @@
 
     <!-- Picture -->
     <section class="section-b">
-        <div class="overlay">
-            <div class="pic-bg flex">
-                <h3>
-                    A place to get affordable clothes, shoes, bags, eye contact, jewelries, hoodies, slides...
-                </h3>
-                <div class="btn"><a href="#gallery">See More</a></div>
+        <div class="pic-bg ">
+            <!-- <h1>CSS-only Carousel</h1>
+            
+                    <p>This carousel is created with HTML and CSS only.</p> -->
+
+            <section class="carousel" aria-label="Gallery">
+                <ol class="carousel__viewport">
+                    <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper">
+                            <a href="#carousel__slide4" class="carousel__prev"></a>
+                            <a href="#carousel__slide2" class="carousel__next"></a>
+                        </div>
+                    </li>
+                    <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide1" class="carousel__prev"></a>
+                        <a href="#carousel__slide3" class="carousel__next"></a>
+                    </li>
+                    <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide2" class="carousel__prev"></a>
+                        <a href="#carousel__slide4" class="carousel__next"></a>
+                    </li>
+                    <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide3" class="carousel__prev"></a>
+                        <a href="#carousel__slide1" class="carousel__next"></a>
+                    </li>
+                </ol>
+            </section>
+            <div class="overlay">
+                <div class="flex">
+                    <h3>
+                        A place to get affordable clothes, shoes, bags, eye contact, jewelries, hoodies, slides...
+                    </h3>
+                    <div class="btn"><a href="#gallery">See More</a></div>
+                </div>
             </div>
         </div>
     </section>
@@ -59,9 +90,11 @@
     <nav class="nav-bar">
         <ul class="flex">
             <li><a href="#">Home</a></li>
-            <li><a href="#gallery">Products</a></li>
-            <li><a href="#">Deliveries</a></li>
-            <li><a href="#foot">About</a></li>
+            <div class="active">
+                <li><a href="#gallery">Gallery</a></li>
+            </div>
+            <li><a href="deliveries.html">Contact</a></li>
+            <li><a href="#about">About</a></li>
         </ul>
     </nav>
 
@@ -78,208 +111,208 @@
                         <a href="https://i.ibb.co/X4dHnXy/IMG-20210126-WA0054.jpg">
                             <img src="https://i.ibb.co/X4dHnXy/IMG-20210126-WA0054.jpg" alt="">
                         </a>
-                        <h3>XS1</h3>
+                        <h3>XS-5</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/BZHjFPc/IMG-20210126-WA0141.jpg">
                             <img src="https://i.ibb.co/BZHjFPc/IMG-20210126-WA0141.jpg" alt="">
                         </a>
-                        <h3>XS1</h3>
+                        <h3>ML-3</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/FJKhtgp/IMG-20210126-WA0131.jpg">
                             <img src="https://i.ibb.co/FJKhtgp/IMG-20210126-WA0131.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>SN-1</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/Qvn4SV8/IMG-20210126-WA0164.jpg">
                             <img src="https://i.ibb.co/Qvn4SV8/IMG-20210126-WA0164.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>XS-9</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/q9FgLLk/IMG-20210126-WA0145.jpg">
                             <img src="https://i.ibb.co/q9FgLLk/IMG-20210126-WA0145.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>Z-91</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/c8skqYP/IMG-20210126-WA0101.jpg">
                             <img src="https://i.ibb.co/c8skqYP/IMG-20210126-WA0101.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>4H-3</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/ph2L36r/IMG-20210126-WA0016.jpg">
                             <img src="https://i.ibb.co/ph2L36r/IMG-20210126-WA0016.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>XS-7</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/x76Zkdq/IMG-20210126-WA0026.jpg">
                             <img src="https://i.ibb.co/x76Zkdq/IMG-20210126-WA0026.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>P-00</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/XjvDKqW/IMG-20210126-WA0019.jpg">
                             <img src="https://i.ibb.co/XjvDKqW/IMG-20210126-WA0019.jpg" alt=""></a>
 
-                        <h3>XS1</h3>
+                        <h3>SC-9</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/Xjy1Swk/IMG-20210126-WA0023.jpg">
                             <img src="https://i.ibb.co/Xjy1Swk/IMG-20210126-WA0023.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>CS-7</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/JK9gdCh/IMG-20210126-WA0060.jpg">
                             <img src="https://i.ibb.co/JK9gdCh/IMG-20210126-WA0060.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>XX-2</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/9Yk3wDq/IMG-20210126-WA0009.jpg">
                             <img src="https://i.ibb.co/9Yk3wDq/IMG-20210126-WA0009.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>PY-0</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/y5Gcq48/IMG-20210126-WA0021.jpg">
                             <img src="https://i.ibb.co/y5Gcq48/IMG-20210126-WA0021.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>H3-E</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/xmcztLf/IMG-20210126-WA0119.jpg">
                             <img src="https://i.ibb.co/xmcztLf/IMG-20210126-WA0119.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>AA-9</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/42gJPL9/IMG-20210126-WA0033.jpg">
                             <img src="https://i.ibb.co/42gJPL9/IMG-20210126-WA0033.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>JX-4</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/pymSM4V/IMG-20210126-WA0155.jpg">
                             <img src="https://i.ibb.co/pymSM4V/IMG-20210126-WA0155.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>MJ-1</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/vx6HKc8/IMG-20210126-WA0152.jpg">
                             <img src="https://i.ibb.co/vx6HKc8/IMG-20210126-WA0152.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>XS-5</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/jrywJWm/IMG-20210127-WA0009.jpg">
                             <img src="https://i.ibb.co/jrywJWm/IMG-20210127-WA0009.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>VB-12</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/XJ2w2TG/IMG-20210127-WA0029.jpg">
                             <img src="https://i.ibb.co/XJ2w2TG/IMG-20210127-WA0029.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>SA-4</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/cxyTtsK/IMG-20210126-WA0096.jpg">
                             <img src="https://i.ibb.co/cxyTtsK/IMG-20210126-WA0096.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>NX-8</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/t2PWFqh/IMG-20210126-WA0140.jpg">
                             <img src="https://i.ibb.co/t2PWFqh/IMG-20210126-WA0140.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>FN-0</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/515hK8P/IMG-20210126-WA0062.jpg">
                             <img src="https://i.ibb.co/515hK8P/IMG-20210126-WA0062.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>DS-12</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/kDnjXj6/IMG-20210126-WA0087.jpg">
                             <img src="https://i.ibb.co/kDnjXj6/IMG-20210126-WA0087.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>KZ-2</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/S37QqNW/IMG-20210126-WA0129.jpg">
                             <img src="https://i.ibb.co/S37QqNW/IMG-20210126-WA0129.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>MK-9</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/MfJqnKK/IMG-20210126-WA0025.jpg">
                             <img src="https://i.ibb.co/MfJqnKK/IMG-20210126-WA0025.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>SD-14</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/wLqj5QY/IMG-20210126-WA0127.jpg">
                             <img src="https://i.ibb.co/wLqj5QY/IMG-20210126-WA0127.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>YH-1</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/PT5Kmk3/IMG-20210126-WA0110.jpg">
                             <img src="https://i.ibb.co/PT5Kmk3/IMG-20210126-WA0110.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>SC-0</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/pWphS0v/IMG-20210127-WA0008.jpg">
                             <img src="https://i.ibb.co/pWphS0v/IMG-20210127-WA0008.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>VM-5</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/mNpSNgJ/IMG-20210126-WA0015.jpg">
                             <img src="https://i.ibb.co/mNpSNgJ/IMG-20210126-WA0015.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>SX-3</h3>
                     </div>
                     <div class="show">
                         <a href="https://i.ibb.co/xq6Gqyj/IMG-20210126-WA0149.jpg">
                             <img src="https://i.ibb.co/xq6Gqyj/IMG-20210126-WA0149.jpg" alt="">
                         </a>
 
-                        <h3>XS1</h3>
+                        <h3>MM-4</h3>
                     </div>
                 </div>
             </div>
@@ -287,27 +320,24 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer" id="foot">
+    <footer class="footer" id="about">
         <div class="container">
             <div class="flex">
                 <h2>Follow Us</h2>
                 <div>
-                    <a href="http://twitter.com">
-                        <i class="fab fa-twitter fa-2x"></i>
-                    </a>
-                    <a href="http://facebook.com">
+                    <a href="https://web.facebook.com/esther.esabu.5">
                         <i class="fab fa-facebook fa-2x"></i>
                     </a>
                 </div>
             </div>
-            <h4>&copy; Paige 'n' Collections 2021</h4>
+            <h4>&copy; Esther's Room of Choice 2021</h4>
         </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- This simple-light box is the one used now - Jan 26, 2021 -->
-    <script src="simple-lightbox.jquery.min.js"></script>
+    <script src="dist/simple-lightbox.jquery.min.js"></script>
     <script>
         $(function () {
             const $gallery = $('.gallery-show a').simpleLightbox();
