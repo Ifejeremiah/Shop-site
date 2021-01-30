@@ -1,0 +1,279 @@
+/* Media queries */
+
+/* Tab */
+@media (max-width:900px){
+    .logo {
+        height: 100px;
+        padding: 20px 0;
+    }
+    
+    .logo h2 {
+        color: #fff;
+        font-size: 2rem;
+        padding: 30px 0 0;
+        font-weight: 100;
+    }
+    
+    .logo h2 sup {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        margin-bottom: 5px;
+        border: 0s;
+    }
+
+    .card-inner {
+        /* margin: auto; */
+        grid-template-columns: repeat(2, 1fr);
+        width: 560px;
+    }
+
+    .section-a {
+        padding: 50px 0;
+        height: 1000px;
+    }
+
+    .section-a .container {
+        max-width: 90%;
+        width: 1100px;
+        margin: auto;
+        padding: 0 0 0 5px;
+    }
+
+    .section-a h3 {
+        font-weight: 550;
+        color: rgb(218, 214, 214);
+    }
+    
+    .section-b .pic-bg .flex {
+        margin: 8.5rem auto;
+        width: 500px;
+    }
+
+    .section-b .pic-bg h3 {
+        width: 400px;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    
+
+    .gallery .shows {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* .gallery .container {
+        width: 300px;
+        
+    } */
+
+    .gallery h2 {
+        font-size: 1.8rem;
+        margin-left: 10px;
+    }
+    
+    .gallery .content h3 {
+        padding: 10px 20px;
+        width: 250px;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .main .del-logo h2 {
+        font-size: 1.5rem;
+        margin-top: 10px;   
+    }
+
+    .main .container .flex {
+        flex-direction: column;
+    }
+
+    .main .container .del-nav-bar .flex {
+        flex-direction: row;
+    }
+
+    .main .del-logo h2 sup {
+        font-size: 1.1rem;
+    }
+
+    
+    .main .del-nav-bar {
+        width: 220px;
+    }
+
+    .main .del-nav-bar ul a {
+        font-size: 1.2rem;
+    }
+
+    .main {
+        height: 1200px;
+    }
+
+    .main .contents {
+        grid-template-columns:1fr;
+    }
+    
+    .main .contents h3 {
+        font-size: 2.4rem;
+    }
+    
+    .main .contents p {
+        font-size: 1.4rem;
+        width: 400px;
+    }
+
+    .contents .flexs p {
+        margin: 0;
+        width: 400px;
+    }
+
+    .contents .flexs .btn {
+        margin-left: 100px;
+    }
+
+    .carousel__viewport {
+        height: 700px;
+    }
+}
+
+/* Phones */
+@media (max-width:550px){
+    .logo {
+        height: 120px;
+        padding: 0;
+    }
+    
+    .logo h2 {
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 40px 0;
+        font-weight: 100;
+    }
+    
+    .logo h2 sup {
+        font-size: 1.2rem;
+    }
+
+    .card-inner {
+        grid-template-columns: 1fr;
+        width: 560px;
+    }
+
+    .section-a {
+        display: none;
+    }
+
+    /* .section-a .container {
+        max-width: 90%;
+        width: 380px;
+        margin: auto;
+        padding: 0 0 0 5px;
+    }
+
+    .card-inner {
+        width: 280px;
+    } */
+
+    .nav-bar ul {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+
+    .gallery .shows {
+        grid-template-columns: 1fr;
+        width: 250px;
+    }
+
+    /* .gallery .container {
+        width: 100%;
+    } */
+
+    .gallery h2 {
+        font-size: 1.8rem;
+    }
+    
+    .gallery .content h3 {
+        /* padding: 10px 20px; */
+        width: 250px;
+        font-size: 1rem;
+    }
+
+    .gallery .show {
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
+        width: 300px;
+        border: 1px solid rgb(230, 228, 228);
+        height: 300px;
+    }
+
+    .gallery .container {
+        width: 300px;
+    }
+ 
+    .section-b .pic-bg .flex {
+        width: 100%;
+    }
+
+    .section-b .pic-bg h3 {
+        width: 350px;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    /* Delivery */
+
+    
+    .main .del-logo h2 {
+        font-size: 1.5rem;
+        width: 300px; 
+    }
+
+    .main .container .flex {
+        display: block;
+    }
+
+    .main .del-logo h2 sup {
+        font-size: 1.1rem;
+    }
+
+    
+    .main .del-nav-bar {
+        margin: auto;
+        width: 240px;
+    }
+
+    .main .del-nav-bar ul a {
+        font-size: 1.2rem;
+    }
+
+    .main .del-nav-bar .flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .main {
+        height: 1200px;
+    }
+
+    .main .contents {
+        grid-template-columns:1fr;
+        padding: 60px 0 0 0;
+    }
+    
+    .main .contents h3 {
+        font-size: 2rem;
+    }
+    
+    .main .contents p {
+        font-size: 1.4rem;
+        width: 300px;
+    }
+
+    .contents .flexs .btn {
+        margin-left: 50px;
+        width: 180px;
+    }
+}
